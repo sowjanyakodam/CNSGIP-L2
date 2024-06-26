@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Website</title>
+    <link rel="stylesheet" href="news.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">PRIME NEWS</div>
+        <ul> 
+            <li><a href="#">Contact</a></li> 
+            <li><a href="#">About Us</a></li>         
+            <li><a href="#" onclick="showNews('sports')">Sports</a></li>
+            <li><a href="#" onclick="showNews('market')">Business</a></li>            
+            <li><a href="#" onclick="showNews('politics')">Politics</a></li>            
+        </ul>
+    </nav>
+    <div id="news-content">
+        <!-- News content will be displayed here -->
+    </div>
+    <script src="news.js"></script>
+</body>
+</html>
